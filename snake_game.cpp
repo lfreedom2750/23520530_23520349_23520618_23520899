@@ -3,7 +3,7 @@
 #include <cstdlib>
 #include <conio.h>
 using namespace std;
-
+# 123456
 void gotoxy (int column, int line);
 
 struct Point

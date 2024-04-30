@@ -2,6 +2,11 @@
 #include <windows.h>
 #include <cstdlib>
 #include <conio.h>
+#include <cmath>
+#define MINX 5
+#define MINY 5
+#define MAXX 40
+#define MAXY 30
 using namespace std;
 
 void gotoxy(int column, int line);
@@ -30,11 +35,12 @@ class Snake
                 gotoxy(points[i].x,points[i].y);
                 cout<<"$";
             }
+
+            
         }
 
         void Move(int dir)
-        {
-
+        {   
             for (int i = length - 1; i > 0; i--)
                 points[i] = points[i - 1];
 
@@ -48,7 +54,7 @@ class Snake
 int main()
 {
     Snake r;
-    int direction = 3;
+    int dir = 3, old_dir;
     char t;
     bool check = 0;
 
@@ -56,19 +62,20 @@ int main()
     {
         if (kbhit())
         {
-
+            old_dir = dir;
             t = getch();
-            if (t=='w') direction = 0;
-            if (t=='a') direction = 1;
-            if (t=='s') direction = 2;
-            if (t=='d') direction = 3;
-
+            if (t=='w') dir = 0;
+            if (t=='a') dir = 1;
+            if (t=='s') dir = 2;
+            if (t=='d') dir = 3;
             if (t == 13)
                 check = 1;
+            if (abs(dir - old_dir) == 2)
+                dir = old_dir;
         }
         system("cls");
         r.Draw();
-        r.Move(direction);
+        r.Move(dir);
         Sleep(250);
     }
 

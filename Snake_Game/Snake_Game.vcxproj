@@ -135,6 +135,7 @@
   <ItemGroup>
     <ClCompile Include="src\AssetMan.cpp" />
     <ClCompile Include="src\Game.cpp" />
+    <ClCompile Include="src\GameplayState.cpp" />
     <ClCompile Include="src\GameState.cpp" />
     <ClCompile Include="src\InputMan.cpp" />
     <ClCompile Include="src\main.cpp" />
@@ -147,6 +148,7 @@
     <ClInclude Include="include\AssetMan.hpp" />
     <ClInclude Include="include\DEFINITIONS.hpp" />
     <ClInclude Include="include\Game.hpp" />
+    <ClInclude Include="include\GameplayState.hpp" />
     <ClInclude Include="include\GameState.hpp" />
     <ClInclude Include="include\InputMan.hpp" />
     <ClInclude Include="include\MainMenuState.hpp" />

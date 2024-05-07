@@ -15,3 +15,6 @@
 #define GAMEPLAY_BUTTON_FONT_FILEPATH "assets/fonts/PressStart2P-Regular.ttf"
 #define HIGHSCORE_BUTTON_FONT_FILEPATH "assets/fonts/PressStart2P-Regular.ttf"
 #define EXIT_BUTTON_FONT_FILEPATH "assets/fonts/PressStart2P-Regular.ttf"
+#define CLASSIC_BUTTON_FONT_FILEPATH "assets/fonts/PressStart2P-Regular.ttf"
+#define MODERN_BUTTON_FONT_FILEPATH "assets/fonts/PressStart2P-Regular.ttf"
+#define BACK_BUTTON_FONT_FILEPATH "assets/fonts/PressStart2P-Regular.ttf"

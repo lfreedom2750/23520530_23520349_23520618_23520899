@@ -11,6 +11,8 @@ namespace Engine
 
 	void MainMenuState::Init()
 	{
+		std::cout << "Main Menu State" << std::endl;
+
 		m_data->assets.LoadTexture("Main Menu Background", 
 			MAIN_MENU_BACKGROUND_FILEPATH);
 		m_data->assets.LoadTexture("Game Title", 

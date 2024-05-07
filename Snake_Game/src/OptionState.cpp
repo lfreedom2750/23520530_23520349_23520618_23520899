@@ -39,7 +39,9 @@ namespace Engine
 			(m_gameplayButton.getGlobalBounds().height / 2) + 125.0f);
 		m_highscoreButton.setPosition((SCREEN_WIDTH / 2) - 50.0f, (SCREEN_HEIGHT / 2) -
 			(m_highscoreButton.getGlobalBounds().height / 2) + 125.0f);
-
+		
+		m_gameplayButton.setCharacterSize(35);
+		m_highscoreButton.setCharacterSize(35);
 	}
 
 	void OptionState::ProcessInput()
@@ -61,6 +63,7 @@ namespace Engine
 			if (m_data->input.IsTextClicked(m_exitButton, sf::Mouse::Left,
 				m_data->window))
 			{
+				std::cout << "EXIT" << std::endl;
 				exit(0);
 			}
 

@@ -2,11 +2,12 @@
 
 namespace Engine
 {
-	void AssetMan::LoadTexture(std::string name, std::string fileName)
+	void AssetMan::LoadTexture(std::string name, std::string fileName, bool isRepeated)
 	{
 		sf::Texture tex;
 		if (tex.loadFromFile(fileName))
 		{
+			tex.setRepeated(isRepeated);
 			m_textures[name] = tex;
 		}
 	}

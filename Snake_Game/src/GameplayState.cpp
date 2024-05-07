@@ -80,6 +80,7 @@ namespace Engine
 		m_classicButton.setCharacterSize(35);
 		m_modernButton.setCharacterSize(35);
 		m_levelButton.setCharacterSize(35);
+
 		m_levelButton.setFillColor(sf::Color::Cyan);
 	}
 
@@ -487,12 +488,14 @@ namespace Engine
 		m_data->window.draw(m_level3);
 		m_data->window.draw(m_level4);
 		m_data->window.draw(m_level5);
+
 		if ((m_isclassicButtonClicked && (m_isLevel1Clicked || m_isLevel2Clicked
 			|| m_isLevel3Clicked || m_isLevel4Clicked || m_isLevel5Clicked)) || (m_ismodernButtonClicked && (m_isLevel1Clicked || m_isLevel2Clicked
 				|| m_isLevel3Clicked || m_isLevel4Clicked || m_isLevel5Clicked)))
 		{
 			m_data->window.draw(m_playButton);
 		}
+
 		m_data->window.display();
 	}
 

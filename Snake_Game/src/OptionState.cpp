@@ -64,7 +64,7 @@ namespace Engine
 				m_data->window))
 			{
 				std::cout << "EXIT" << std::endl;
-				exit(0);
+				m_data->window.close();
 			}
 
 			if (sf::Event::MouseMoved == event.type)

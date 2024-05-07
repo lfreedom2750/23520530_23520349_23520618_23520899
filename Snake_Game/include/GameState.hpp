@@ -5,6 +5,8 @@
 #include <State.hpp>
 #include <Game.hpp>
 
+#include <array>
+
 namespace Engine
 {
 	class GameState : public State
@@ -12,6 +14,10 @@ namespace Engine
 	private:
 		GameDataRef m_data;
 		sf::Sprite m_background;
+		sf::Sprite m_grass;
+		sf::Sprite m_food;
+		std::array<sf::Sprite, 4> m_walls;
+
 	public:
 		GameState(GameDataRef data);
 
@@ -20,5 +26,7 @@ namespace Engine
 		void Update(float dt);
 		void Draw(float dt);
 
+		void Pause();
+		void Resume();
 	};
 }

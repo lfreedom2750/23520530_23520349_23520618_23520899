@@ -25,3 +25,8 @@
 #define MODERN_BUTTON_FONT_FILEPATH "assets/fonts/PressStart2P-Regular.ttf"
 #define BACK_BUTTON_FONT_FILEPATH "assets/fonts/PressStart2P-Regular.ttf"
 #define LEVEL_BUTTON_FONT_FILEPATH "assets/fonts/PressStart2P-Regular.ttf"
+
+#define FOOD_FILEPATH "assets/resources/img/food.png"
+#define SNAKE_FILEPATH "assets/resources/img/snake.png"
+#define WALL_FILEPATH "assets/resources/img/wall.png"
+#define GRASS_FILEPATH "assets/resources/img/grass.png"

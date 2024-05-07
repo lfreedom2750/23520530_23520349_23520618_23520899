@@ -15,7 +15,7 @@ namespace Engine
 		AssetMan() {}
 		~AssetMan() {}
 
-		void LoadTexture(std::string name, std::string fileName);
+		void LoadTexture(std::string name, std::string fileName, bool wantRepeated = false);
 		void LoadFont(std::string name, std::string fileName);
 
 		sf::Texture& GetTexture(std::string name);

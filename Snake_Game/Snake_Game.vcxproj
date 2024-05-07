@@ -164,10 +164,20 @@
     <Text Include="assets\fonts\OFL.txt" />
   </ItemGroup>
   <ItemGroup>
+    <Image Include="assets\resources\img\food.png" />
     <Image Include="assets\resources\img\Game Background.png" />
+    <Image Include="assets\resources\img\grass.png" />
+    <Image Include="assets\resources\img\Level 1.png" />
+    <Image Include="assets\resources\img\Level 2.png" />
+    <Image Include="assets\resources\img\Level 3.png" />
+    <Image Include="assets\resources\img\Level 4.png" />
+    <Image Include="assets\resources\img\Level 5.png" />
     <Image Include="assets\resources\img\Play Button.png" />
+    <Image Include="assets\resources\img\Play.png" />
+    <Image Include="assets\resources\img\snake.png" />
     <Image Include="assets\resources\img\Splash Background.png" />
     <Image Include="assets\resources\img\Title.png" />
+    <Image Include="assets\resources\img\wall.png" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

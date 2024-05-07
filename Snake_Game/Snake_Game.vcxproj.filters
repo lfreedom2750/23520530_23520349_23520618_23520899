@@ -100,5 +100,35 @@
     <Image Include="assets\resources\img\Title.png">
       <Filter>Resource Files</Filter>
     </Image>
+    <Image Include="assets\resources\img\Level 1.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\resources\img\Level 2.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\resources\img\Level 3.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\resources\img\Level 4.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\resources\img\Level 5.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\resources\img\Play.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\resources\img\food.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\resources\img\grass.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\resources\img\snake.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="assets\resources\img\wall.png">
+      <Filter>Resource Files</Filter>
+    </Image>
   </ItemGroup>
 </Project>

@@ -141,6 +141,7 @@
     <ClCompile Include="src\main.cpp" />
     <ClCompile Include="src\MainMenuState.cpp" />
     <ClCompile Include="src\OptionState.cpp" />
+    <ClCompile Include="src\Snake.cpp" />
     <ClCompile Include="src\SplashState.cpp" />
     <ClCompile Include="src\StateMan.cpp" />
   </ItemGroup>
@@ -153,6 +154,7 @@
     <ClInclude Include="include\InputMan.hpp" />
     <ClInclude Include="include\MainMenuState.hpp" />
     <ClInclude Include="include\OptionState.hpp" />
+    <ClInclude Include="include\Snake.hpp" />
     <ClInclude Include="include\SplashState.hpp" />
     <ClInclude Include="include\State.hpp" />
     <ClInclude Include="include\StateMan.hpp" />

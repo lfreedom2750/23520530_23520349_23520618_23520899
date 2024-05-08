@@ -1,6 +1,9 @@
 #pragma once
 
-#include <SFML/Graphics.hpp>
+#include <SFML/Graphics/Sprite.hpp>
+#include <SFML/Graphics/RenderWindow.hpp>
+#include <SFML/Window/Mouse.hpp>
+#include <SFML/Graphics/Text.hpp>
 
 namespace Engine
 {

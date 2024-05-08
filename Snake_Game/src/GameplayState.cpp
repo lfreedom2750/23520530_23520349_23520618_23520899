@@ -6,6 +6,9 @@
 #include <sstream>
 #include <iostream>
 
+#include <SFML/Window/Event.hpp>
+#include <SFML/Window/Mouse.hpp>
+
 namespace Engine
 {
 	GameplayState::GameplayState(GameDataRef data) : m_data(data), m_isclassicButtonClicked(false),
@@ -96,7 +99,13 @@ namespace Engine
 
 			if (m_data->input.IsSpriteClicked(m_playButton, sf::Mouse::Left, m_data->window))
 			{
-				m_data->states.AddState(StateRef(new GameState(m_data)), true);
+				if ((m_isclassicButtonClicked && (m_isLevel1Clicked || m_isLevel2Clicked
+					|| m_isLevel3Clicked || m_isLevel4Clicked || m_isLevel5Clicked))
+					|| (m_ismodernButtonClicked && (m_isLevel1Clicked || m_isLevel2Clicked
+						|| m_isLevel3Clicked || m_isLevel4Clicked || m_isLevel5Clicked)))
+				{
+					m_data->states.AddState(StateRef(new GameState(m_data)), true);
+				}
 			}
 
 			if (m_data->input.IsTextClicked(m_backButton, sf::Mouse::Left,

@@ -1,9 +1,10 @@
 #pragma once
 
-#include <SFML/Graphics.hpp>
+#include <SFML/Graphics/Sprite.hpp>
 
 #include <State.hpp>
 #include <Game.hpp>
+#include <Snake.hpp>
 
 #include <array>
 
@@ -17,6 +18,10 @@ namespace Engine
 		sf::Sprite m_grass;
 		sf::Sprite m_food;
 		std::array<sf::Sprite, 4> m_walls;
+
+		Snake m_snake;
+		sf::Vector2f m_direction;
+		float m_elapsedTime;
 
 	public:
 		GameState(GameDataRef data);

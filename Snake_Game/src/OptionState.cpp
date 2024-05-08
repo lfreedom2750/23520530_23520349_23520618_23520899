@@ -5,6 +5,8 @@
 #include <sstream>
 #include <iostream>
 
+#include <SFML/Window/Event.hpp>
+
 namespace Engine
 {
 	OptionState::OptionState(GameDataRef data) : m_data(data) {}

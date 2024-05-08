@@ -3,7 +3,7 @@
 #include <memory>
 #include <string>
 
-#include <SFML/Graphics.hpp>
+#include <SFML/Graphics/RenderWindow.hpp>
 
 #include <StateMan.hpp>
 #include <AssetMan.hpp>

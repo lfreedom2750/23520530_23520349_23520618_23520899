@@ -3,7 +3,11 @@
 #define SCREEN_WIDTH 1080
 #define SCREEN_HEIGHT 720
 
+#define GAME_FRAME_WIDTH 752
+#define GAME_FRAME_HEIGHT 720
+
 #define SPLASH_STATE_SHOW_TIME 3.0
+#define SNAKE_SPEED 0.2
 
 #define SPLASH_SCENE_BACKGROUND_FILEPATH "assets/resources/img/Splash Background.png"
 #define MAIN_MENU_BACKGROUND_FILEPATH "assets/resources/img/Game Background.png"

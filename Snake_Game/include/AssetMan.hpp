@@ -2,7 +2,8 @@
 
 #include <map>
 
-#include <SFML/Graphics.hpp>
+#include <SFML/Graphics/Texture.hpp>
+#include <SFML/Graphics/Font.hpp>
 
 namespace Engine
 {
